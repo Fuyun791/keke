@@ -21,11 +21,11 @@
 
 ## 部分页面展示
 
-![主页](./static\image\主页.jpg)
+![主页](./static\image\home.jpg)
 
-![我的](./static\image\我的.jpg)
+![我的](./static\image\my.jpg)
 
-![评论页](./static\image\评论页.jpg)
+![评论页](./static\image\discuss.jpg)
 
 ## 项目运行
 
@@ -55,15 +55,15 @@
 
 <table>
     <tr>
-        <td><center><img src = "./static\image\评论页.jpg"  width = "50%" align = right>图一</center></td>
-        <td><center><img src = "./static\image\评论区拉伸.jpg"  width = "50%" align = left>图二</center></td>
+        <td><center><img src = "./static\image\discuss.jpg"  width = "50%" align = right>图一</center></td>
+        <td><center><img src = "./static\image\discuss-shen.jpg"  width = "50%" align = left>图二</center></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><center><img src = "./static\image\另一个评论区.jpg"  width = "50%" align = right>图三</center></td>
-        <td><center><img src = "./static\image\另一个评论区拉伸.jpg"  width = "50%" align = left>图四</center></td>
+        <td><center><img src = "./static\image\onther-discuss.jpg"  width = "50%" align = right>图三</center></td>
+        <td><center><img src = "./static\image\other-discuss-shen.jpg"  width = "50%" align = left>图四</center></td>
     </tr>
 </table>
 
