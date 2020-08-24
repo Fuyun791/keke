@@ -21,6 +21,14 @@
 
 ## 部分页面展示
 
+<figure>
+	<a href="static\image\home.jpg"><img src="static\image\home.jpg"></a>
+</figure>
+
+<figure>
+	<a href="./static/image/home.jpg"><img src="./static/image/home.jpg"></a>
+</figure>
+
 ![主页](static\image\home.jpg)
 
 ![我的](static\image\my.jpg)
