@@ -2,12 +2,12 @@
 
 一款面向智慧校园中的教学管理方向的小程序。结合当时的疫情背景下，我们主要关注网课，兴趣页，学生信息管理这两个模块的实现。
 
-网课模块（我负责）：
+网课模块（**我负责**）：
 
 1. 首页的课程展示（第一版是另一位组员写的，然后的代码页面布局是我精修的）
 2. 课程详情页的展示
 3. 课程内的评论区
-4. 课程推荐（前端未加入）
+4. 课程推荐（未加入）
 
 兴趣：
 
@@ -22,18 +22,12 @@
 ## 部分页面展示
 
 <figure>
-	<a href="static\image\home.jpg"><img src="static\image\home.jpg"></a>
+	<a href="static\image\home.jpg"><img height="600px" src="static\image\home.jpg"></a>
+    <a href="static\image\my.jpg" style="margin-left: 60px"><img height="600px" src="static\image\my.jpg"></a>
+    <a href="static\image\discuss.jpg"><img height="600px" src="static\image\discuss.jpg"></a>
+    <a href="static\image\intrset.jpg" style="margin-left: 60px"><img height="600px" src="static\image\intrset.jpg"></a>
 </figure>
 
-<figure>
-	<a href="./static/image/home.jpg"><img src="./static/image/home.jpg"></a>
-</figure>
-
-![主页](static\image\home.jpg)
-
-![我的](static\image\my.jpg)
-
-![评论页](static\image\discuss.jpg)
 
 ## 项目运行
 
@@ -63,15 +57,15 @@
 
 <table>
     <tr>
-        <td><center><img src = "static\image\discuss.jpg"  width = "50%" align = right>图一</center></td>
-        <td><center><img src = "static\image\discuss-shen.jpg"  width = "50%" align = left>图二</center></td>
+        <td><center><img src = static\image\discuss.jpg  width = 50% align = right>图一</center></td>
+        <td><center><img src = static\image\discuss-shen.jpg  width = 50% align = left>图二</center></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><center><img src = "static\image\onther-discuss.jpg"  width = "50%" align = right>图三</center></td>
-        <td><center><img src = "static\image\other-discuss-shen.jpg"  width = "50%" align = left>图四</center></td>
+        <td><center><img src = static\image\onther-discuss.jpg  width = 50% align = right>图三</center></td>
+        <td><center><img src = static\image\other-discuss-shen.jpg  width = 50% align = left>图四</center></td>
     </tr>
 </table>
 
