@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

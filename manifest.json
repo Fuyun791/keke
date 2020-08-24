@@ -1,5 +1,5 @@
 {
-    "name" : "jiaoyu",
+    "name" : "keke",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -42,7 +42,7 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wx9e525c88141edf7a",
+        "appid" : "",
         "setting" : {
             "urlCheck" : false,
             "minified" : true,

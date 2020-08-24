@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

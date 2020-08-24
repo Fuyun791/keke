@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/interest/interest",
+    "pages/timetable/timetable",
+    "pages/my/my",
+    "pages/index/login",
+    "pages/index/course",
+    "pages/my/emptyroom",
+    "pages/my/mark",
+    "pages/my/myCourse",
+    "pages/my/myCollect",
+    "pages/my/myExam",
+    "pages/my/evaluation",
+    "pages/interest/group",
+    "pages/interest/article",
+    "pages/index/course_list",
+    "pages/radio/radio",
+    "pages/index/course-discuss",
+    "pages/password/password",
+    "pages/library/library",
+    "pages/library/book"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#EEB478",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#ffaa00",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-line.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/interest/interest",
+        "iconPath": "static/icon/interest-1.png",
+        "selectedIconPath": "static/icon/interest-line.png",
+        "text": "兴趣"
+      },
+      {
+        "pagePath": "pages/timetable/timetable",
+        "iconPath": "static/icon/course-1.png",
+        "selectedIconPath": "static/icon/course-line.png",
+        "text": "课表"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icon/user.png",
+        "selectedIconPath": "static/icon/user-line.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap74.json"
+}

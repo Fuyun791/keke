@@ -1,0 +1,40 @@
+
+view{
+	font-size: 35rpx;
+}
+.layout2{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.view1{
+	background-color: #eeb478;
+	height: 250rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 250rpx;
+}
+.view2{
+	height: 100rpx;
+	background-color: #f0f0f0;
+	color: #808080;
+	text-align: center;
+	line-height: 100rpx;
+}
+.view3{
+	height: 100rpx;
+	background-color: #f8f1ec;
+	text-align: center;
+	line-height: 100rpx;
+}
+.view4{
+	height: 100rpx;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 100rpx;
+}
+

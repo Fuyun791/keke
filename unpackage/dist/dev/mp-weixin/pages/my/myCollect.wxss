@@ -1,0 +1,40 @@
+
+view{
+	font-size: 35rpx;
+}
+.layout1{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.layout3{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.font1{
+	font-size: 30rpx;
+	color: #808080;
+}
+.view1{
+	width: 187.5rpx;
+	font-size: 35rpx;
+	text-align: center;
+}
+.view2{
+	width: 187.5rpx;
+	font-size: 35rpx;
+	color: #eeb478;
+	text-align: center;
+}
+

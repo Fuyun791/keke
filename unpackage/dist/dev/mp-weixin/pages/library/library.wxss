@@ -1,0 +1,72 @@
+
+.course-list-image {
+	width: 200rpx;
+	height: 250rpx;
+}
+.course-context-text {
+	font-size: 11pt;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	/* 限制在一个块元素显示的文本的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直排列 */
+	word-break: break-all;
+}
+.course-list-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.course-author-text {
+	color: #b2b2b2;
+	font-size: 11pt;
+	padding: 4px 0px;
+}
+.course-name-text {
+	font-weight: bold;
+}
+.search-input{
+	height: 70rpx;
+	width: 700rpx;
+	margin: 20rpx;
+	border-radius: 50rpx;
+	border:1px solid #C0C0C0;
+}
+.search-box{
+	height: 70rpx;
+	margin: 0 auto;
+	width: 600rpx;
+}
+.btn-row{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.bottom1{
+	width: 250rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	font-size: 35rpx;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.bottom{
+	width: 250rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	font-size: 35rpx;
+	background-color: #FFFFFF;
+	color: #ffaa00;
+	text-align: center;
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-rate": "/components/uni-rate/uni-rate",
+    "uni-card": "/components/uni-card/uni-card",
+    "special-banner": "/components/EtherealWheat-banner/specialBanner"
+  }
+}

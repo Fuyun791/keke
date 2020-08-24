@@ -1,0 +1,113 @@
+
+.discuss {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 15px 8px;
+}
+.discuss-context-left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.discuss-context-right {
+	font-size: 9pt;
+	color: #808080;
+}
+.discussToGray {
+	background-color: #e5e5e5;
+}
+.inputDiscuss {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 5px 8px 5px 15px;
+	border-width: 0.5px;
+	border-style: solid;
+	border-radius: 100px;
+	background-color: #F8F8F8;
+	border-color: #e5e5e5;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 10pt;
+}
+.discuss-button {
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	z-index: 2;
+	color: #808080;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	background-color: white;
+}
+.discuss-button-in {
+	width: 100%;
+	background-color: white;
+	height: 55px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	z-index: 10;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-top: 1px solid #F7F7F7;
+}
+.discuss-icon {
+	width: 17px;
+	height: 17px;
+	margin-right: 5px;
+}
+.discuss-icon-small {
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+}
+.discuss-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.discuss-button-text {
+	font-size: 10pt;
+}
+.discuss-avator {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.discuss-no-avator {
+	background-color: #007AFF;
+}
+.discuss-context {
+	background-color: #f3f3f4;
+	border-radius: 2px;
+	padding: 10px;
+}
+.discuss-text {
+	font-size: 14px;
+}
+.discuss-name {
+	margin-left: 10px;
+	color: #808080;
+}
+

@@ -1,0 +1,64 @@
+
+view{
+		font-size: 35rpx;
+}
+.layout1{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+}
+.layout2{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-justify-content: space-around;
+		        justify-content: space-around;
+}
+.layout3{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-justify-content: space-around;
+		        justify-content: space-around;
+}
+.left1{
+		margin-left: 30rpx;
+}
+.top1{
+		margin-top: 30rpx;
+}
+	/* 横向滑动盒子 */
+.content {
+        padding:20rpx;
+		padding-left: 0rpx;
+}
+.scroll {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+}
+.box {
+        display: inline-block;
+		padding: 10rpx;
+        width: 300rpx;
+        height: 100rpx;
+        background: #FFFFFF;
+        margin-left: 30rpx;
+}
+.image1{
+		width: 80rpx;
+		height: 80rpx;
+}
+

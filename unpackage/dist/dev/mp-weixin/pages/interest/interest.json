@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "兴趣",
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

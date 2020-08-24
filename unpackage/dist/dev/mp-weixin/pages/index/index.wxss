@@ -1,0 +1,186 @@
+
+.course-list-image {
+	width: 200rpx;
+	height: 200rpx;
+}
+.course-context-text {
+	font-size: 11pt;
+}
+.course-list-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 4px;
+}
+.course-author-text {
+	color: #b2b2b2;
+	font-size: 10pt;
+	padding: 4px 0px;
+}
+.course-name-text {
+	font-weight: bold;
+}
+.content {
+	width: 100vw;
+	height: 550rpx;
+	background-color: #FFFFFF;
+}
+.my-text {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.menu {
+	margin-top: 5px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	overflow: hidden;
+}
+.menu-in {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.menu-img {
+	width: 28px;
+	height: 28px;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+.card1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.card-backgroud {
+	padding: 0px 12px;
+}
+.card-h1 {
+	font-size: larg;
+	font-weight: bold;
+	width: 300rpx;
+	height: 50rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	/* 限制在一个块元素显示的文本的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直排列 */
+	word-break: break-all;
+}
+.card-h2 {
+	font-size: 26rpx;
+	color: #808080;
+	margin-top: 10rpx;
+	width: 300rpx;
+	height: 50rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	/* 限制在一个块元素显示的文本的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直排列 */
+	word-break: break-all;
+}
+.card-img {
+	width: 225rpx;
+	height: 225rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.card-image {
+	width: 100%;
+	height: 100%;
+}
+.card-rate {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	margin-top: 100rpx;
+	height: 20rpx;
+}
+.rate-number {
+	font-size: 28rpx;
+	color: #999999;
+	margin-left: 7px;
+	height: 24px;
+}
+.book-img {
+	width: 230rpx;
+	height: 350rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.book-image {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+.book-title {
+	font-size: 26rpx;
+	color: #808080;
+	margin-top: 10rpx;
+	width: 300rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	/* 限制在一个块元素显示的文本的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直排列 */
+	word-break: break-all;
+}
+.book-fort {
+	font-size: 32rpx;
+	color: #808080;
+	margin-top: 10rpx;
+	width: 50rpx;
+	height: 50rpx;
+	overflow: hidden;
+}
+.book-rate {
+	margin-top: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+

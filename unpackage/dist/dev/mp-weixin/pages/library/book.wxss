@@ -1,0 +1,85 @@
+
+.card1 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		margin-top: 50rpx;
+		padding-left: 30rpx;
+}
+.card-h1 {
+	font-size: larg;
+	font-weight: bold;
+	width: 300rpx;
+	height: 50rpx;
+	margin-left: 50rpx;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+}
+.book-img {
+		width: 250rpx;
+		height: 350rpx;
+		border-radius: 10rpx;
+}
+.book-image {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+.book-title {
+	font-size: 26rpx;
+	color: #808080;
+	margin-top: 10rpx;
+	margin-left: 50rpx;
+	width: 400rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	/* 限制在一个块元素显示的文本的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直排列 */
+	word-break: break-all;
+}
+.book-fort {
+	font-size: 32rpx;
+	color: #808080;
+	width: 50rpx;
+	height: 50rpx;
+	overflow: hidden;
+}
+.book-rate {
+	margin-top: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.follow{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 200rpx;
+	height: 60rpx;
+	border-radius: 10rpx;
+	line-height: 60rpx;
+	font-size: 30rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background-color: #EEB478;
+	color: #FFFFFF;
+	position: fixed;
+	right: 20rpx;
+}
+
+
