@@ -21,6 +21,8 @@
 
 ## 部分页面展示
 
+图片需要能访问外网才能显示
+
 <figure>
 	<a href="static\image\home.jpg"><img height="600px" src="static\image\home.jpg"></a>
     <a href="static\image\my.jpg" style="margin-left: 60px"><img height="600px" src="static\image\my.jpg"></a>
@@ -44,7 +46,7 @@
 | uni-app 官网的组件 |   简化开发   |
 |       Nginx        | 轻量级服务器 |
 
-## 接下来展示两个开发中碰上的有意思的问题
+## 接下来展示两个开发中碰上比较细节的问题
 
 1. 手机测试时点击输入框时，键盘的上移导致页面整体上移
 2. 评论区某行想要点赞，同时触发这行的点击评论事件的，而且还触发了外层的点击效果。
@@ -57,15 +59,15 @@
 
 <table>
     <tr>
-        <td><center><img src = static\image\discuss.jpg  width = 50% align = right>图一</center></td>
-        <td><center><img src = static\image\discuss-shen.jpg  width = 50% align = left>图二</center></td>
+        <td><center><div>[图一]</div><img src = static\image\discuss.jpg  width = 60% alt="图一" title="图一"></center></td>
+        <td><center><div>[图二]</div><img src = static\image\discuss-shen.jpg  width = 60% alt="图二" title="图二"></center></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><center><img src = static\image\onther-discuss.jpg  width = 50% align = right>图三</center></td>
-        <td><center><img src = static\image\other-discuss-shen.jpg  width = 50% align = left>图四</center></td>
+        <td><center><div>[图三]</div><img src = static\image\onther-discuss.jpg  width = 60% alt="图三" title="图三"></center></td>
+        <td><center><div>[图四]</div><img src = static\image\other-discuss-shen.jpg  width = 60% alt="图四" title="图四"></center></td>
     </tr>
 </table>
 
@@ -108,3 +110,9 @@ inputBlur() {
 	<image :src="selectIsGood(discuss.id)" class="discuss-icon-small"></image>
 </view>
 ```
+
+## CSDN博客里的前端文章
+
+[谈Nginx部署两个vue项目](https://blog.csdn.net/weixin_43882435/article/details/104369127)
+
+[vue使用element-ui动态生成表单高可复用性解决resetFields()带来的问题](https://blog.csdn.net/weixin_43882435/article/details/104247405)
