@@ -111,7 +111,9 @@ inputBlur() {
 </view>
 ```
 
-## CSDN博客里的前端文章
+## 其他
+
+[Vue双向绑定模拟实现原理的代码](https://github.com/Fuyun791/vue-simulation) 另一个github项目，推荐看看
 
 [谈Nginx部署两个vue项目](https://blog.csdn.net/weixin_43882435/article/details/104369127)
 
